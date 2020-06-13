@@ -1,3 +1,36 @@
 body {
   font-family: sans-serif;
+  background-color: rgb(237, 237, 237);
+}
+
+.fixed-navbar {
+  position: fixed;
+}
+
+.latitude-brand {
+  padding: 0;
+}
+
+.latitude-brand a {
+  padding: 8px 16px 8px 16px;
+  background-color: rgb(74, 170, 165);
+  color: white !important;
+  border-radius: 2px;
+  /* position: fixed; */
+  top: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-options {
+  justify-content: flex-end;
+}
+
+.project-intro {
+  padding: 46px;
+  border: 1px solid black;
+  height: 800px;
+  background-color: transparent;
+  margin-top: 55px;
 }
