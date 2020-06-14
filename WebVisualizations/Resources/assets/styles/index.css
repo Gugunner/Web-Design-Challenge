@@ -64,6 +64,11 @@ p {
   font-size: 0.8rem;
 }
 
+thead {
+  background-color: rgb(74, 170, 165);
+  color: #fff;
+}
+
 footer {
   background-color: rgb(102, 102, 102);
   position: fixed;
