@@ -12,7 +12,7 @@
     />
     <meta charset="UTF-8" />
     <link
-      href="../Resources/assets/styles/index.css"
+      href="./Resources/assets/styles/index.css"
       rel="stylesheet"
       type="text/css"
     />
@@ -27,7 +27,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="latitude-brand">
-        <a class="navbar-brand" href="../../index.html">Lattitude</a>
+        <a class="navbar-brand" href="../index.html">Lattitude</a>
       </div>
       <button
         class="navbar-toggler"
@@ -58,16 +58,22 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./temperature.html"
+              <a class="dropdown-item" href="./Visualizations/temperature.html"
                 >Max Temperature</a
               >
-              <a class="dropdown-item" href="./humidity.html">Humidity</a>
-              <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="#">Wind Speed</a>
+              <a class="dropdown-item" href="./Visualizations/humidity.html"
+                >Humidity</a
+              >
+              <a class="dropdown-item" href="./Visualizations/cloudiness.html"
+                >Cloudiness</a
+              >
+              <a class="dropdown-item" href="./Visualizations/windspeed.html"
+                >Wind Speed</a
+              >
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../comparison.html">Comparison</a>
+            <a class="nav-link" href="#">Comparison</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Data</a>
@@ -78,60 +84,49 @@
     <div class="project-intro">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-7 project-summary">
-            <h1>Wind Speed</h1>
+          <div class="col-12 project-summary">
+            <h1>Comparison: Latitude vs X</h1>
             <hr class="my-5" />
-            <div class="row" style="display: flex; align-items: center">
-              <div class="col-12">
-                <img
-                  style="width: 100%; height: 100%;"
-                  src="../Resources/assets/images/Fig4.png"
-                  alt="Wind Speed"
-                />
-              </div>
-              <div class="col-12">
-                <p>
-                  We have outlier data that shows wind speed of 35 mph. But the
-                  main concentration of points is between 0 and 10mph closer to
-                  the equator.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-12 col-md-12 col-lg-4 offset-lg-1 my-4 my-lg-0 project-visualizations"
-            style="height: 100%;"
-          >
-            <h2 style="margin-top: 10px;">Visualizations</h2>
-            <hr class="my-3" />
+            <p>Click on any plot to get an in-depth analysis.</p>
             <div class="row mt-lg-5">
-              <div class="col-6">
-                <img
-                  src="../Resources/assets/images/Fig1.png"
-                  alt="figure-1"
-                  width="100%"
-                />
+              <div class="col-12 col-md-6">
+                <a href="./Visualizations/temperature.html">
+                  <img
+                    src="./Resources/assets/images/Fig1.png"
+                    alt="figure-1"
+                    width="100%"
+                  />
+                </a>
               </div>
-              <div class="col-6">
-                <img
-                  src="../Resources/assets/images/Fig2.png"
-                  alt="figure-2"
-                  width="100%"
-                />
+              <hr class="compare-line" />
+              <div class="col-12 col-md-6">
+                <a href="./Visualizations/humidity.html">
+                  <img
+                    src="./Resources/assets/images/Fig2.png"
+                    alt="figure-2"
+                    width="100%"
+                  />
+                </a>
               </div>
-              <div class="col-6">
-                <img
-                  src="../Resources/assets/images/Fig3.png"
-                  alt="figure-3"
-                  width="100%"
-                />
+              <hr class="compare-line" />
+              <div class="col-12 col-md-6">
+                <a href="./Visualizations/cloudiness.html">
+                  <img
+                    src="./Resources/assets/images/Fig3.png"
+                    alt="figure-3"
+                    width="100%"
+                  />
+                </a>
               </div>
-              <div class="col-6 img-selected">
-                <img
-                  src="../Resources/assets/images/Fig4.png"
-                  alt="figure-4"
-                  width="100%"
-                />
+              <hr class="compare-line" />
+              <div class="col-12 col-md-6">
+                <a href="./Visualizations/windspeed.html">
+                  <img
+                    src="./Resources/assets/images/Fig4.png"
+                    alt="figure-4"
+                    width="100%"
+                  />
+                </a>
               </div>
             </div>
           </div>

@@ -80,3 +80,9 @@ footer div {
   justify-content: center;
   border-top: 5px solid rgb(74, 170, 165);
 }
+
+@media only screen and (max-width: 767px) {
+  .compare-line {
+    width: 100%;
+  }
+}
